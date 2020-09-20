@@ -1,4 +1,4 @@
-package pr_4;
+package lab_4;
 
 public class Dog implements Nameable {
     private boolean hasOwner;
