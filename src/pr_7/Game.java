@@ -34,7 +34,7 @@ public class Game {
     private void readCards(ArrayDeque<Short> arr, String name) {
         if (show_game_process)
             System.out.print("Введите набор карт для игрока '"+name+"': ");
-        var input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         for (int i = 0; i < 5; i++)
             arr.add(input.nextShort());
     }

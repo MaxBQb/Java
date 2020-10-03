@@ -4,8 +4,8 @@ import java.lang.management.BufferPoolMXBean;
 
 public class Main {
     public static void main(String[] args) {
-        var bwl = new BoundedWaitList<Integer>(3);
-        var ufwl = new UnfairWaitList<Integer>();
+        BoundedWaitList<Integer> bwl = new BoundedWaitList<Integer>(3);
+        UnfairWaitList<Integer> ufwl = new UnfairWaitList<Integer>();
 
         System.out.println("BoundedWaitList test");
         System.out.println(bwl);

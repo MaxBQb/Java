@@ -17,7 +17,7 @@ public class UnfairWaitList<E> extends WaitList<E> {
      */
     public void remove(E element) {
         int i = 0;
-        for (var iter: content) {
+        for (E iter: content) {
             if (iter == element) {
                 if (i != 0) {
                     content.remove(iter);
@@ -42,7 +42,7 @@ public class UnfairWaitList<E> extends WaitList<E> {
      * @param element to be moved
      */
     public void moveToBack(E element) {
-        for (var iter: content)
+        for (E iter: content)
             if (iter == element) {
                 content.remove(iter);
                 content.add(element);

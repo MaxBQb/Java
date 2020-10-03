@@ -26,7 +26,7 @@ public class Appication extends JFrame{
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
-        var txtArea = new JTextArea("Здесь был текст");
+        JTextArea txtArea = new JTextArea("Здесь был текст");
         txtArea.setLineWrap(true);
         txtArea.setAutoscrolls(true);
         txtArea.setFont(new Font("Times New Roman", 1,22));
@@ -34,15 +34,15 @@ public class Appication extends JFrame{
         add(new JScrollPane(txtArea, ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS,
                 ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER), BorderLayout.CENTER);
 
-        var mColor = new JMenu(("Цвет"));
-        var mbColor = new JMenuBar();
+        JMenu mColor = new JMenu(("Цвет"));
+        JMenuBar mbColor = new JMenuBar();
         JMenuItem itm;
-        var options = new String[]{
+        String[] options = new String[]{
                 "Синий",
                 "Красный",
                 "Чёрный"
         };
-        var options2 = new Color[]{
+        Color[] options2 = new Color[]{
                 Color.BLUE,
                 Color.RED,
                 Color.BLACK
@@ -61,8 +61,8 @@ public class Appication extends JFrame{
         mbColor.add(mColor);
         add(mbColor, BorderLayout.WEST);
 
-        var mFont = new JMenu(("Шрифт"));
-        var mbFont = new JMenuBar();
+        JMenu mFont = new JMenu(("Шрифт"));
+        JMenuBar mbFont = new JMenuBar();
         options = new String[]{
                 "Times New Roman",
                 "MS Sans Serif",
@@ -86,7 +86,7 @@ public class Appication extends JFrame{
 
 
     public static void main(String[] args) {
-        var app = new Appication();
+        Appication app = new Appication();
         app.setVisible(true);
     }
 }

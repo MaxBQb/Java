@@ -5,7 +5,7 @@ import java.util.Comparator;
 
 public class Main {
     public static void main(String[] args) {
-        var f = new Student[80];
+        Student[] f = new Student[80];
         for (int i = 0; i < f.length; i++)
             f[i] = new Student((int)(Math.random()*1000)%300, 17+(int)(Math.random()*10)%5);
         new MergeSort().sort(f, Student.class, new Comparator<Student>() {

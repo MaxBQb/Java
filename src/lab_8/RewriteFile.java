@@ -7,7 +7,7 @@ public class RewriteFile {
     public static void main(String[] args) {
         try(FileWriter writer = new
                 FileWriter(".\\note.txt")) {
-            var sc = new Scanner(System.in);
+            Scanner sc = new Scanner(System.in);
             System.out.println("Введите текст для записи в файл:");
             String text = sc.nextLine();
             writer.write(text);

@@ -35,7 +35,7 @@ class Animation {
     }
 
     public void readFrames(String[] paths) {
-        for (var path: paths)
+        for (String path: paths)
             frames.add(new ImageIcon(path));
     }
 
@@ -109,19 +109,19 @@ public class Appication extends JFrame{
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
-        var frames = new String[] {
+        String[] frames = new String[] {
                 "./Tasks/src/lab_5/left.png",
                 "./Tasks/src/lab_5/right.png"
         };
-        var animation = new Animation(2, frames);
-        var container = new JPanel();
+        Animation animation = new Animation(2, frames);
+        JPanel container = new JPanel();
         container.add(animation.getViewer());
         add(container, BorderLayout.CENTER);
     }
 
 
     public static void main(String[] args) {
-        var app = new Appication();
+        Appication app = new Appication();
         app.setVisible(true);
     }
 }
