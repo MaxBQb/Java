@@ -29,12 +29,12 @@ class Animation {
         setFps(fps);
     }
 
-    Animation(int fps, String[] paths) throws IOException {
+    Animation(int fps, String[] paths) {
         this(fps);
         readFrames(paths);
     }
 
-    public void readFrames(String[] paths) throws IOException {
+    public void readFrames(String[] paths) {
         for (var path: paths)
             frames.add(new ImageIcon(path));
     }
@@ -100,7 +100,7 @@ class Animation {
 
 public class Appication extends JFrame{
 
-    Appication() throws IOException {
+    Appication() {
         super("Кто здесь?!");
         setBounds(0,0,270,170);
         setLocationRelativeTo(null);
@@ -120,7 +120,7 @@ public class Appication extends JFrame{
     }
 
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         var app = new Appication();
         app.setVisible(true);
     }
