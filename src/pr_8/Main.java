@@ -28,7 +28,8 @@ public class Main {
         System.out.println(ufwl);
         ufwl.remove(3);
         ufwl.add(3);
-        ufwl.remove(1);
+        ufwl.remove(1); // не сработает
+        ufwl.moveToBack(1);
         ufwl.add(1);
         System.out.println(ufwl);
         ufwl.remove();
