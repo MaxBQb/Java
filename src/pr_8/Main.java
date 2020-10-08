@@ -1,11 +1,9 @@
 package pr_8;
 
-import java.lang.management.BufferPoolMXBean;
-
 public class Main {
     public static void main(String[] args) {
-        BoundedWaitList<Integer> bwl = new BoundedWaitList<Integer>(3);
-        UnfairWaitList<Integer> ufwl = new UnfairWaitList<Integer>();
+        BoundedWaitList<Integer> bwl = new BoundedWaitList<>(3);
+        UnfairWaitList<Integer> ufwl = new UnfairWaitList<>();
 
         System.out.println("BoundedWaitList test");
         System.out.println(bwl);
