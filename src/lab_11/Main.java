@@ -15,6 +15,20 @@ public class Main {
         } catch (Throwable t) {
             System.out.println("Что-то пошло совсем не так...");
         }
+        System.out.println("Solution test:");
+        ArrayList<Integer> a = new ArrayList<>();
+        ArrayList<Integer> b = new ArrayList<>();
+        a.add(1);
+        a.add(2);
+        a.add(3);
+        a.add(3);
+        b.add(21);
+        b.add(21);
+        b.add(23);
+        b.add(24);
+        System.out.println("ArrayList: "+Solution.newArrayList(a));
+        System.out.println("HashMap: "+Solution.newHashMap(a, b));
+        System.out.println("HashSet: "+Solution.newHashSet(b));
     }
 
     public static ArrayList<String> getDirectoryList(String path) throws SecurityException {

@@ -2,19 +2,19 @@ package lab_11;
 import java.util.*;
 
 public class Solution {
-    <T> ArrayList<T> newArrayList(Collection<? extends T> value) {
+    public static <T> ArrayList<T> newArrayList(Collection<? extends T> value) {
         ArrayList<T> arrayList = new ArrayList<>();
         arrayList.addAll(value);
         return arrayList;
     }
 
-    <T> HashSet<T> newHashSet(Collection<? extends T> value) {
+    public static <T> HashSet<T> newHashSet(Collection<? extends T> value) {
         HashSet<T> hashSet = new HashSet<>();
         hashSet.addAll(value);
         return hashSet;
     }
 
-    <K, V> HashMap<K, V> newHashMap(List<? extends K> keys, List<? extends V> values) {
+    public static <K, V> HashMap<K, V> newHashMap(List<? extends K> keys, List<? extends V> values) {
         if (keys.size() != values.size())
             throw new IllegalArgumentException("Values count != keys count");
         HashMap<K, V> hashMap = new HashMap();
