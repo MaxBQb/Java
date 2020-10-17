@@ -5,11 +5,14 @@ import java.util.regex.*;
 public class DateChecker {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String s = sc.nextLine();
-        if (!Pattern.matches("(\\d\\d/){2}\\d{4}", s))
-            System.out.println("Неверный формат");
-        else if (logicalCheck(s))
-            System.out.println("Дата корректна!");
+        while (true) {
+            System.out.print("Введите дату: ");
+            String s = sc.nextLine();
+            if (!Pattern.matches("(\\d\\d/){2}\\d{4}", s))
+                System.out.println("Неверный формат");
+            else if (logicalCheck(s))
+                System.out.println("Дата корректна!");
+        }
     }
 
     public static boolean logicalCheck(String date) {
