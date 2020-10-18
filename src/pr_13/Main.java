@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println(
             new Add(
-                new Substract(
+                new Subtract(
                     new Multiply(
                         new Variable("x"),
                         new Variable("x")

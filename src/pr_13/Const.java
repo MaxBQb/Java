@@ -1,6 +1,6 @@
 package pr_13;
 
-public class Const implements IValue {
+public class Const implements IComputable {
     private final int x;
 
     public Const(int x) {

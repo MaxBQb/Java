@@ -1,5 +1,5 @@
 package pr_13;
 
-public interface IValue {
+public interface IComputable {
     int evaluate(int x);
 }

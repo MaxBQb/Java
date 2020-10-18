@@ -1,12 +1,9 @@
 package pr_13;
 
-public class Multiply implements IValue {
-    private IValue a;
-    private IValue b;
+public class Multiply extends AbstractOperator {
 
-    public Multiply(IValue a, IValue b) {
-        this.a = a;
-        this.b = b;
+    public Multiply(IComputable a, IComputable b) {
+        super(a, b);
     }
 
     public int evaluate(int x) {

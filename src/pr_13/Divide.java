@@ -1,12 +1,8 @@
 package pr_13;
 
-public class Divide implements IValue {
-    private IValue a;
-    private IValue b;
-
-    public Divide(IValue a, IValue b) {
-        this.a = a;
-        this.b = b;
+public class Divide extends AbstractOperator {
+    public Divide(IComputable a, IComputable b) {
+        super(a, b);
     }
 
     public int evaluate(int x) {
