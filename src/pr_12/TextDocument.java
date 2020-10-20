@@ -23,12 +23,9 @@ public class TextDocument implements IDocument{
         try(FileWriter fileWriter = new FileWriter(path)) {
             fileWriter.write(content);
             fileWriter.flush();
-            return;
         }
-        catch (IOException e) {
+        catch (Throwable e) {
             System.out.println(e.getMessage());
-        }
-        catch (Throwable ex) {
             JOptionPane.showMessageDialog(null,
                     "Не удалось сохранить файл!",
                     "Ошибка сохранения файла",
