@@ -16,8 +16,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5172992a-488b-412e-b68d-173731d99e5c" name="Default Changelist" comment="Task pr 2 send to confirmation">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="5172992a-488b-412e-b68d-173731d99e5c" name="Default Changelist" comment="repo trim">
+      <change afterPath="$PROJECT_DIR$/src/pr_14/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pr_14/Shirt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +37,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hAZFMzbAm5NT7nckMpyanzYiwj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -53,13 +56,26 @@
       <recent name="Pr_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pr_12.Application" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pr_12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pr_14.Main" />
+      <module name="Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pr_14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,13 +119,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,9 +137,11 @@
       <item itemvalue="Application.TestAuthor (1)" />
       <item itemvalue="Application.TestAuthor" />
       <item itemvalue="Application.Application" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Application.TestAuthor (1)" />
         <item itemvalue="Application.TestAuthor" />
@@ -136,7 +156,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599455756510</updated>
-      <workItem from="1603216990183" duration="323000" />
+      <workItem from="1603216990183" duration="453000" />
+      <workItem from="1603361764783" duration="2111000" />
     </task>
     <task id="LOCAL-00001" summary="Task pr 2 send to confirmation">
       <created>1599550306840</created>
@@ -145,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599550306840</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="repo trim">
+      <created>1603217415050</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603217415050</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +205,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Task pr 2 send to confirmation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task pr 2 send to confirmation" />
+    <MESSAGE value="repo trim" />
+    <option name="LAST_COMMIT_MESSAGE" value="repo trim" />
   </component>
   <component name="WindowStateProjectService">
     <state x="478" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1599544095148">
@@ -188,22 +217,22 @@
       <screen x="0" y="0" width="1344" height="800" />
     </state>
     <state x="93" y="93" width="1158" height="614" key="DiffContextDialog/0.0.1344.800@0.0.1344.800" timestamp="1603217312534" />
-    <state width="633" height="187" key="GridCell.Tab.0.bottom" timestamp="1599550626492">
+    <state width="1267" height="386" key="GridCell.Tab.0.bottom" timestamp="1603364884555">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="633" height="187" key="GridCell.Tab.0.bottom/0.0.1344.800@0.0.1344.800" timestamp="1599550626492" />
-    <state width="633" height="187" key="GridCell.Tab.0.center" timestamp="1599550626492">
+    <state width="1267" height="386" key="GridCell.Tab.0.bottom/0.0.1344.800@0.0.1344.800" timestamp="1603364884555" />
+    <state width="1267" height="386" key="GridCell.Tab.0.center" timestamp="1603364884555">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="633" height="187" key="GridCell.Tab.0.center/0.0.1344.800@0.0.1344.800" timestamp="1599550626492" />
-    <state width="633" height="187" key="GridCell.Tab.0.left" timestamp="1599550626491">
+    <state width="1267" height="386" key="GridCell.Tab.0.center/0.0.1344.800@0.0.1344.800" timestamp="1603364884555" />
+    <state width="1267" height="386" key="GridCell.Tab.0.left" timestamp="1603364884554">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="633" height="187" key="GridCell.Tab.0.left/0.0.1344.800@0.0.1344.800" timestamp="1599550626491" />
-    <state width="633" height="187" key="GridCell.Tab.0.right" timestamp="1599550626492">
+    <state width="1267" height="386" key="GridCell.Tab.0.left/0.0.1344.800@0.0.1344.800" timestamp="1603364884554" />
+    <state width="1267" height="386" key="GridCell.Tab.0.right" timestamp="1603364884555">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="633" height="187" key="GridCell.Tab.0.right/0.0.1344.800@0.0.1344.800" timestamp="1599550626492" />
+    <state width="1267" height="386" key="GridCell.Tab.0.right/0.0.1344.800@0.0.1344.800" timestamp="1603364884555" />
     <state x="373" y="0" key="RollbackChangesDialog" timestamp="1603217025969">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
@@ -212,10 +241,10 @@
       <screen x="0" y="0" width="1344" height="800" />
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1344.800@0.0.1344.800" timestamp="1603217088774" />
-    <state x="265" y="133" key="Vcs.Push.Dialog.v2" timestamp="1599550622726">
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2" timestamp="1603217421607">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state x="265" y="133" key="Vcs.Push.Dialog.v2/0.0.1344.800@0.0.1344.800" timestamp="1599550622726" />
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2/0.0.1344.800@0.0.1344.800" timestamp="1603217421607" />
     <state x="474" y="307" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1599549983173">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
