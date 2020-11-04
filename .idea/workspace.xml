@@ -16,9 +16,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5172992a-488b-412e-b68d-173731d99e5c" name="Default Changelist" comment="repo trim">
-      <change afterPath="$PROJECT_DIR$/src/pr_14/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pr_14/Shirt.java" afterDir="false" />
+    <list default="true" id="5172992a-488b-412e-b68d-173731d99e5c" name="Default Changelist" comment="pr_14 completed (Shirts)">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +45,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -56,7 +56,7 @@
       <recent name="Pr_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pr_12.Application" />
       <module name="Tasks" />
@@ -83,12 +83,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab_16.Main" />
       <module name="Tasks" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab_16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,28 +122,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.TestAuthor (1)" />
       <item itemvalue="Application.TestAuthor" />
       <item itemvalue="Application.Application" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Application.TestAuthor (1)" />
@@ -157,7 +159,11 @@
       <option name="presentableId" value="Default" />
       <updated>1599455756510</updated>
       <workItem from="1603216990183" duration="453000" />
-      <workItem from="1603361764783" duration="2111000" />
+      <workItem from="1603361764783" duration="2566000" />
+      <workItem from="1603811933922" duration="2148000" />
+      <workItem from="1603961176323" duration="1311000" />
+      <workItem from="1603972657247" duration="113000" />
+      <workItem from="1603976572605" duration="1950000" />
     </task>
     <task id="LOCAL-00001" summary="Task pr 2 send to confirmation">
       <created>1599550306840</created>
@@ -173,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603217415050</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="pr_14 completed (Shirts)">
+      <created>1603365408079</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603365408079</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +219,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Task pr 2 send to confirmation" />
     <MESSAGE value="repo trim" />
-    <option name="LAST_COMMIT_MESSAGE" value="repo trim" />
+    <MESSAGE value="pr_14 completed (Shirts)" />
+    <option name="LAST_COMMIT_MESSAGE" value="pr_14 completed (Shirts)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="478" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1599544095148">
@@ -217,22 +231,26 @@
       <screen x="0" y="0" width="1344" height="800" />
     </state>
     <state x="93" y="93" width="1158" height="614" key="DiffContextDialog/0.0.1344.800@0.0.1344.800" timestamp="1603217312534" />
-    <state width="1267" height="386" key="GridCell.Tab.0.bottom" timestamp="1603364884555">
+    <state x="294" y="0" key="FileChooserDialogImpl" timestamp="1603985833541">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1267" height="386" key="GridCell.Tab.0.bottom/0.0.1344.800@0.0.1344.800" timestamp="1603364884555" />
-    <state width="1267" height="386" key="GridCell.Tab.0.center" timestamp="1603364884555">
+    <state x="294" y="0" key="FileChooserDialogImpl/0.0.1344.800@0.0.1344.800" timestamp="1603985833541" />
+    <state width="1267" height="386" key="GridCell.Tab.0.bottom" timestamp="1603365437924">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1267" height="386" key="GridCell.Tab.0.center/0.0.1344.800@0.0.1344.800" timestamp="1603364884555" />
-    <state width="1267" height="386" key="GridCell.Tab.0.left" timestamp="1603364884554">
+    <state width="1267" height="386" key="GridCell.Tab.0.bottom/0.0.1344.800@0.0.1344.800" timestamp="1603365437924" />
+    <state width="1267" height="386" key="GridCell.Tab.0.center" timestamp="1603365437923">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1267" height="386" key="GridCell.Tab.0.left/0.0.1344.800@0.0.1344.800" timestamp="1603364884554" />
-    <state width="1267" height="386" key="GridCell.Tab.0.right" timestamp="1603364884555">
+    <state width="1267" height="386" key="GridCell.Tab.0.center/0.0.1344.800@0.0.1344.800" timestamp="1603365437923" />
+    <state width="1267" height="386" key="GridCell.Tab.0.left" timestamp="1603365437923">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1267" height="386" key="GridCell.Tab.0.right/0.0.1344.800@0.0.1344.800" timestamp="1603364884555" />
+    <state width="1267" height="386" key="GridCell.Tab.0.left/0.0.1344.800@0.0.1344.800" timestamp="1603365437923" />
+    <state width="1267" height="386" key="GridCell.Tab.0.right" timestamp="1603365437923">
+      <screen x="0" y="0" width="1344" height="800" />
+    </state>
+    <state width="1267" height="386" key="GridCell.Tab.0.right/0.0.1344.800@0.0.1344.800" timestamp="1603365437923" />
     <state x="373" y="0" key="RollbackChangesDialog" timestamp="1603217025969">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
@@ -241,10 +259,10 @@
       <screen x="0" y="0" width="1344" height="800" />
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1344.800@0.0.1344.800" timestamp="1603217088774" />
-    <state x="0" y="0" key="Vcs.Push.Dialog.v2" timestamp="1603217421607">
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2" timestamp="1603365413402">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state x="0" y="0" key="Vcs.Push.Dialog.v2/0.0.1344.800@0.0.1344.800" timestamp="1603217421607" />
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2/0.0.1344.800@0.0.1344.800" timestamp="1603365413402" />
     <state x="474" y="307" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1599549983173">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
@@ -253,5 +271,9 @@
       <screen x="0" y="0" width="1344" height="800" />
     </state>
     <state x="486" y="299" key="git4idea.ui.GitStashDialog/0.0.1344.800@0.0.1344.800" timestamp="1599550204780" />
+    <state x="0" y="0" key="new project wizard" timestamp="1603985848909">
+      <screen x="0" y="0" width="1344" height="800" />
+    </state>
+    <state x="0" y="0" key="new project wizard/0.0.1344.800@0.0.1344.800" timestamp="1603985848909" />
   </component>
 </project>
