@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -16,8 +19,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5172992a-488b-412e-b68d-173731d99e5c" name="Default Changelist" comment="pr_14 completed (Shirts)">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="5172992a-488b-412e-b68d-173731d99e5c" name="Default Changelist" comment="lab_16 completed (BFG - Big F****** GUI)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,11 +46,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
@@ -56,7 +60,7 @@
       <recent name="Pr_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pr_12.Application" />
       <module name="Tasks" />
@@ -83,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab_16.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.pr_16.Main" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab_16.*" />
+          <option name="PATTERN" value="ru.mirea.pr_16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAuthor (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pr_2.TestAuthor" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pr_16.Main" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pr_2.*" />
+          <option name="PATTERN" value="pr_16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,19 +138,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestAuthor (1)" />
       <item itemvalue="Application.TestAuthor" />
       <item itemvalue="Application.Application" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Application" />
-        <item itemvalue="Application.TestAuthor (1)" />
-        <item itemvalue="Application.TestAuthor" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +168,7 @@
       <workItem from="1603961176323" duration="1311000" />
       <workItem from="1603972657247" duration="113000" />
       <workItem from="1603976572605" duration="1950000" />
+      <workItem from="1604467814655" duration="1087000" />
     </task>
     <task id="LOCAL-00001" summary="Task pr 2 send to confirmation">
       <created>1599550306840</created>
@@ -186,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603365408079</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="lab_16 completed (BFG - Big F****** GUI)">
+      <created>1604468252549</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604468252549</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,40 +229,46 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Task pr 2 send to confirmation" />
     <MESSAGE value="repo trim" />
     <MESSAGE value="pr_14 completed (Shirts)" />
-    <option name="LAST_COMMIT_MESSAGE" value="pr_14 completed (Shirts)" />
+    <MESSAGE value="lab_16 completed (BFG - Big F****** GUI)" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab_16 completed (BFG - Big F****** GUI)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="478" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1599544095148">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
     <state x="478" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1344.800@0.0.1344.800" timestamp="1599544095148" />
-    <state x="93" y="93" width="1158" height="614" key="DiffContextDialog" timestamp="1603217312535">
+    <state x="329" y="151" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1604468069591">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state x="93" y="93" width="1158" height="614" key="DiffContextDialog/0.0.1344.800@0.0.1344.800" timestamp="1603217312534" />
+    <state x="329" y="151" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1344.800@0.0.1344.800" timestamp="1604468069591" />
+    <state x="93" y="93" width="1158" height="614" key="DiffContextDialog" timestamp="1604468313735">
+      <screen x="0" y="0" width="1344" height="800" />
+    </state>
+    <state x="93" y="93" width="1158" height="614" key="DiffContextDialog/0.0.1344.800@0.0.1344.800" timestamp="1604468313735" />
     <state x="294" y="0" key="FileChooserDialogImpl" timestamp="1603985833541">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
     <state x="294" y="0" key="FileChooserDialogImpl/0.0.1344.800@0.0.1344.800" timestamp="1603985833541" />
-    <state width="1267" height="386" key="GridCell.Tab.0.bottom" timestamp="1603365437924">
+    <state width="1267" height="386" key="GridCell.Tab.0.bottom" timestamp="1604467951226">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1267" height="386" key="GridCell.Tab.0.bottom/0.0.1344.800@0.0.1344.800" timestamp="1603365437924" />
-    <state width="1267" height="386" key="GridCell.Tab.0.center" timestamp="1603365437923">
+    <state width="1267" height="386" key="GridCell.Tab.0.bottom/0.0.1344.800@0.0.1344.800" timestamp="1604467951226" />
+    <state width="1267" height="386" key="GridCell.Tab.0.center" timestamp="1604467951226">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1267" height="386" key="GridCell.Tab.0.center/0.0.1344.800@0.0.1344.800" timestamp="1603365437923" />
-    <state width="1267" height="386" key="GridCell.Tab.0.left" timestamp="1603365437923">
+    <state width="1267" height="386" key="GridCell.Tab.0.center/0.0.1344.800@0.0.1344.800" timestamp="1604467951226" />
+    <state width="1267" height="386" key="GridCell.Tab.0.left" timestamp="1604467951226">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1267" height="386" key="GridCell.Tab.0.left/0.0.1344.800@0.0.1344.800" timestamp="1603365437923" />
-    <state width="1267" height="386" key="GridCell.Tab.0.right" timestamp="1603365437923">
+    <state width="1267" height="386" key="GridCell.Tab.0.left/0.0.1344.800@0.0.1344.800" timestamp="1604467951226" />
+    <state width="1267" height="386" key="GridCell.Tab.0.right" timestamp="1604467951226">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1267" height="386" key="GridCell.Tab.0.right/0.0.1344.800@0.0.1344.800" timestamp="1603365437923" />
+    <state width="1267" height="386" key="GridCell.Tab.0.right/0.0.1344.800@0.0.1344.800" timestamp="1604467951226" />
     <state x="373" y="0" key="RollbackChangesDialog" timestamp="1603217025969">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
@@ -259,10 +277,10 @@
       <screen x="0" y="0" width="1344" height="800" />
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1344.800@0.0.1344.800" timestamp="1603217088774" />
-    <state x="0" y="0" key="Vcs.Push.Dialog.v2" timestamp="1603365413402">
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2" timestamp="1604468299078">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state x="0" y="0" key="Vcs.Push.Dialog.v2/0.0.1344.800@0.0.1344.800" timestamp="1603365413402" />
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2/0.0.1344.800@0.0.1344.800" timestamp="1604468299078" />
     <state x="474" y="307" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1599549983173">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
