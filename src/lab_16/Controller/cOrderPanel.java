@@ -122,6 +122,17 @@ public class cOrderPanel {
                   }, 1000 * 60
                 );
             } else {
+                if (table_orders_manager.getOrder(table_number) != null &&
+                        table_orders_manager.getOrder(table_number).itemsQuantity() != 0) {
+                    must_dispose = false;
+                    view.dispose();
+                    JOptionPane.showMessageDialog(view,
+                            "К сожалению, этот столик недавно заняли!",
+                            "Ошибка!",
+                            JOptionPane.WARNING_MESSAGE
+                    );
+                    return;
+                }
                 table_orders_manager.remove(table_number);
                 table_orders_manager.add(current_order, table_number);
             }
@@ -151,7 +162,7 @@ public class cOrderPanel {
             }
 
             view.setTitle("Столик №"+ table_number);
-            table_orders_manager.add(current_order, table_number);
+            table_orders_manager.add(new TableOrder(client), table_number);
         }
         view.setVisible(true);
     }

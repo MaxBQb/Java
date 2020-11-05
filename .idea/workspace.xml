@@ -19,10 +19,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5172992a-488b-412e-b68d-173731d99e5c" name="Default Changelist" comment="lab_16 completed (BFG - Big F****** GUI)">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5172992a-488b-412e-b68d-173731d99e5c" name="Default Changelist" comment="lab_16 Model fixed (wrong  InternetOrdersManager.remove behaviour)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Model/InternetOrdersManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_16/Model/InternetOrdersManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab_16/Controller/cOrderPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_16/Controller/cOrderPanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604468252549</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lab_16 Model fixed (wrong  InternetOrdersManager.remove behaviour)">
+      <created>1604571771925</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604571771925</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +247,8 @@
     <MESSAGE value="repo trim" />
     <MESSAGE value="pr_14 completed (Shirts)" />
     <MESSAGE value="lab_16 completed (BFG - Big F****** GUI)" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab_16 completed (BFG - Big F****** GUI)" />
+    <MESSAGE value="lab_16 Model fixed (wrong  InternetOrdersManager.remove behaviour)" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab_16 Model fixed (wrong  InternetOrdersManager.remove behaviour)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="478" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1599544095148">
@@ -252,35 +259,61 @@
       <screen x="0" y="0" width="1344" height="800" />
     </state>
     <state x="329" y="151" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1344.800@0.0.1344.800" timestamp="1604468069591" />
-    <state x="93" y="93" width="1158" height="614" key="DiffContextDialog" timestamp="1604468313735">
-      <screen x="0" y="0" width="1344" height="800" />
+    <state width="458" height="546" key="DebuggerActiveHint" timestamp="1604573545222">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="458" height="546" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1604573545222" />
+    <state x="76" y="67" width="946" height="443" key="DiffContextDialog" timestamp="1604573067355">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="76" y="67" width="946" height="443" key="DiffContextDialog/0.0.1097.577@0.0.1097.577" timestamp="1604571670098" />
+    <state x="76" y="67" width="946" height="443" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1604573067355" />
     <state x="93" y="93" width="1158" height="614" key="DiffContextDialog/0.0.1344.800@0.0.1344.800" timestamp="1604468313735" />
     <state x="224" y="0" key="FileChooserDialogImpl" timestamp="1604568259037">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state x="224" y="0" key="FileChooserDialogImpl/0.0.1024.779@0.0.1024.779" timestamp="1604568259037" />
     <state x="294" y="0" key="FileChooserDialogImpl/0.0.1344.800@0.0.1344.800" timestamp="1603985833541" />
-    <state width="1044" height="116" key="GridCell.Tab.0.bottom" timestamp="1604571330659">
-      <screen x="0" y="0" width="1097" height="577" />
+    <state width="1227" height="114" key="GridCell.Tab.0.bottom" timestamp="1604573675656">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1044" height="116" key="GridCell.Tab.0.bottom/0.0.1097.577@0.0.1097.577" timestamp="1604571330659" />
+    <state width="1227" height="114" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604573675656" />
     <state width="1267" height="386" key="GridCell.Tab.0.bottom/0.0.1344.800@0.0.1344.800" timestamp="1604467951226" />
-    <state width="1044" height="116" key="GridCell.Tab.0.center" timestamp="1604571330659">
-      <screen x="0" y="0" width="1097" height="577" />
+    <state width="1227" height="114" key="GridCell.Tab.0.center" timestamp="1604573675656">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1044" height="116" key="GridCell.Tab.0.center/0.0.1097.577@0.0.1097.577" timestamp="1604571330659" />
+    <state width="1227" height="114" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604573675656" />
     <state width="1267" height="386" key="GridCell.Tab.0.center/0.0.1344.800@0.0.1344.800" timestamp="1604467951226" />
-    <state width="1044" height="116" key="GridCell.Tab.0.left" timestamp="1604571330659">
-      <screen x="0" y="0" width="1097" height="577" />
+    <state width="1227" height="114" key="GridCell.Tab.0.left" timestamp="1604573675656">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1044" height="116" key="GridCell.Tab.0.left/0.0.1097.577@0.0.1097.577" timestamp="1604571330659" />
+    <state width="1227" height="114" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604573675656" />
     <state width="1267" height="386" key="GridCell.Tab.0.left/0.0.1344.800@0.0.1344.800" timestamp="1604467951226" />
-    <state width="1044" height="116" key="GridCell.Tab.0.right" timestamp="1604571330659">
-      <screen x="0" y="0" width="1097" height="577" />
+    <state width="1227" height="114" key="GridCell.Tab.0.right" timestamp="1604573675656">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1044" height="116" key="GridCell.Tab.0.right/0.0.1097.577@0.0.1097.577" timestamp="1604571330659" />
+    <state width="1227" height="114" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604573675656" />
     <state width="1267" height="386" key="GridCell.Tab.0.right/0.0.1344.800@0.0.1344.800" timestamp="1604467951226" />
+    <state width="1227" height="189" key="GridCell.Tab.1.bottom" timestamp="1604573611609">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1227" height="189" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604573611609" />
+    <state width="1227" height="189" key="GridCell.Tab.1.center" timestamp="1604573611609">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1227" height="189" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1604573611609" />
+    <state width="1227" height="189" key="GridCell.Tab.1.left" timestamp="1604573611609">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1227" height="189" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1604573611609" />
+    <state width="1227" height="189" key="GridCell.Tab.1.right" timestamp="1604573611609">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1227" height="189" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1604573611609" />
     <state x="284" y="0" key="RollbackChangesDialog" timestamp="1604568160281">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
@@ -293,10 +326,15 @@
     <state x="-4" y="0" width="914" height="577" key="SettingsEditor/0.0.1097.577@0.0.1097.577" timestamp="1604571064433" />
     <state x="0" y="0" key="SettingsEditor/0.0.1344.800@0.0.1344.800" timestamp="1603217088774" />
     <state x="-7" y="0" width="1024" height="726" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604570542968" />
-    <state x="0" y="0" key="Vcs.Push.Dialog.v2" timestamp="1604468299078">
-      <screen x="0" y="0" width="1344" height="800" />
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2" timestamp="1604571779852">
+      <screen x="0" y="0" width="1097" height="577" />
     </state>
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2/0.0.1097.577@0.0.1097.577" timestamp="1604571779852" />
     <state x="0" y="0" key="Vcs.Push.Dialog.v2/0.0.1344.800@0.0.1344.800" timestamp="1604468299078" />
+    <state x="0" y="0" width="719" height="680" key="find.popup" timestamp="1604572192672">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="0" width="719" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1604572192672" />
     <state x="474" y="307" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1599549983173">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
@@ -309,5 +347,16 @@
       <screen x="0" y="0" width="1344" height="800" />
     </state>
     <state x="0" y="0" key="new project wizard/0.0.1344.800@0.0.1344.800" timestamp="1603985848909" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lab_16/Controller/cOrderPanel.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
