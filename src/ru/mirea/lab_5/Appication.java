@@ -2,6 +2,7 @@ package ru.mirea.lab_5;
 
 import javax.swing.*;
 import java.awt.*;
+import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -105,10 +106,9 @@ public class Appication extends JFrame{
         int Width = getWidth();
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
-
         String[] frames = new String[] {
-                "./Tasks/src/ru.mirea.lab_5/left.png",
-                "./Tasks/src/ru.mirea.lab_5/right.png"
+                "src/ru/mirea/lab_5/left.png",
+                "src/ru/mirea/lab_5/right.png"
         };
         Animation animation = new Animation(2, frames);
         JPanel container = new JPanel();

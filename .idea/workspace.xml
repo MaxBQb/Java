@@ -19,7 +19,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5172992a-488b-412e-b68d-173731d99e5c" name="Default Changelist" comment="labs&amp;pr`s moved to ru.mirea package" />
+    <list default="true" id="5172992a-488b-412e-b68d-173731d99e5c" name="Default Changelist" comment="quick fix">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mirea/lab_5/Appication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mirea/lab_5/Appication.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,22 +53,29 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/tests" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\_MRX\II\3\ООП Java\Tasks\out\tests" />
+      <recent name="C:\_MRX\II\3\ООП Java\Tasks\out\tests\pr" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Pr_2" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\_MRX\II\3\ООП Java\Tasks\out\tests\pr" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.pr_12.Application" />
+  <component name="RunManager" selected="Application.Appication">
+    <configuration name="Appication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.lab_5.Appication" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mirea.pr_12.*" />
+          <option name="PATTERN" value="ru.mirea.lab_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,25 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pr_14.Main" />
+    <configuration name="BookTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.lab_2.BookTest" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pr_14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.pr_16.Main" />
-      <module name="Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.mirea.pr_16.*" />
+          <option name="PATTERN" value="ru.mirea.lab_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +122,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAuthor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab_2.TestAuthor" />
+    <configuration name="PrintHarmonic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.lab_1.PrintHarmonic" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab_2.*" />
+          <option name="PATTERN" value="ru.mirea.lab_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.lab_4.Test" />
+      <module name="Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mirea.lab_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,19 +160,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestAuthor" />
-      <item itemvalue="Application.Application" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.PrintHarmonic" />
+      <item itemvalue="Application.BookTest" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Appication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Appication" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.BookTest" />
+        <item itemvalue="Application.PrintHarmonic" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +191,8 @@
       <workItem from="1603972657247" duration="113000" />
       <workItem from="1603976572605" duration="1950000" />
       <workItem from="1604467814655" duration="1087000" />
+      <workItem from="1606324198227" duration="147000" />
+      <workItem from="1606324473428" duration="1223000" />
     </task>
     <task id="LOCAL-00001" summary="Task pr 2 send to confirmation">
       <created>1599550306840</created>
@@ -216,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606289468763</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="quick fix">
+      <created>1606289764978</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606289764978</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,13 +273,18 @@
     <MESSAGE value="pr_14 completed (Shirts)" />
     <MESSAGE value="lab_16 completed (BFG - Big F****** GUI)" />
     <MESSAGE value="labs&amp;pr`s moved to ru.mirea package" />
-    <option name="LAST_COMMIT_MESSAGE" value="labs&amp;pr`s moved to ru.mirea package" />
+    <MESSAGE value="quick fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="quick fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="478" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1599544095148">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
     <state x="478" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1344.800@0.0.1344.800" timestamp="1599544095148" />
+    <state x="344" y="96" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1606324208702">
+      <screen x="0" y="0" width="1344" height="800" />
+    </state>
+    <state x="344" y="96" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1344.800@0.0.1344.800" timestamp="1606324208702" />
     <state x="329" y="151" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1604468069591">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
@@ -272,22 +297,22 @@
       <screen x="0" y="0" width="1344" height="800" />
     </state>
     <state x="294" y="0" key="FileChooserDialogImpl/0.0.1344.800@0.0.1344.800" timestamp="1603985833541" />
-    <state width="1267" height="386" key="GridCell.Tab.0.bottom" timestamp="1604467951226">
+    <state width="1267" height="523" key="GridCell.Tab.0.bottom" timestamp="1606325734783">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1267" height="386" key="GridCell.Tab.0.bottom/0.0.1344.800@0.0.1344.800" timestamp="1604467951226" />
-    <state width="1267" height="386" key="GridCell.Tab.0.center" timestamp="1604467951226">
+    <state width="1267" height="523" key="GridCell.Tab.0.bottom/0.0.1344.800@0.0.1344.800" timestamp="1606325734783" />
+    <state width="1267" height="523" key="GridCell.Tab.0.center" timestamp="1606325734783">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1267" height="386" key="GridCell.Tab.0.center/0.0.1344.800@0.0.1344.800" timestamp="1604467951226" />
-    <state width="1267" height="386" key="GridCell.Tab.0.left" timestamp="1604467951226">
+    <state width="1267" height="523" key="GridCell.Tab.0.center/0.0.1344.800@0.0.1344.800" timestamp="1606325734783" />
+    <state width="1267" height="523" key="GridCell.Tab.0.left" timestamp="1606325734782">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1267" height="386" key="GridCell.Tab.0.left/0.0.1344.800@0.0.1344.800" timestamp="1604467951226" />
-    <state width="1267" height="386" key="GridCell.Tab.0.right" timestamp="1604467951226">
+    <state width="1267" height="523" key="GridCell.Tab.0.left/0.0.1344.800@0.0.1344.800" timestamp="1606325734782" />
+    <state width="1267" height="523" key="GridCell.Tab.0.right" timestamp="1606325734783">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1267" height="386" key="GridCell.Tab.0.right/0.0.1344.800@0.0.1344.800" timestamp="1604467951226" />
+    <state width="1267" height="523" key="GridCell.Tab.0.right/0.0.1344.800@0.0.1344.800" timestamp="1606325734783" />
     <state x="373" y="0" key="RollbackChangesDialog" timestamp="1603217025969">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
@@ -296,10 +321,10 @@
       <screen x="0" y="0" width="1344" height="800" />
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1344.800@0.0.1344.800" timestamp="1603217088774" />
-    <state x="0" y="0" key="Vcs.Push.Dialog.v2" timestamp="1606289594946">
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2" timestamp="1606289772058">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state x="0" y="0" key="Vcs.Push.Dialog.v2/0.0.1344.800@0.0.1344.800" timestamp="1606289594946" />
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2/0.0.1344.800@0.0.1344.800" timestamp="1606289772058" />
     <state x="474" y="307" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1599549983173">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
