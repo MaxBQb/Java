@@ -15,6 +15,7 @@ public class cOrderPanel {
     private static TableOrdersManager table_orders_manager = new TableOrdersManager(cApplication.TABLES_COUNT);
     private static InternetOrdersManager internet_orders_manager = new InternetOrdersManager();
     private int table_number;
+    private boolean is_closed;
     private IOrder current_order;
     private OrdersManager current_orders_manager;
     private boolean must_dispose;
@@ -23,6 +24,7 @@ public class cOrderPanel {
     public cOrderPanel(OrderPanel view, Customer client, int table_number) {
         this.table_number = table_number;
         this.view = view;
+        this.is_closed = false;
         must_dispose = true;
 
         if (table_number == -1) {
@@ -109,7 +111,7 @@ public class cOrderPanel {
             view.btn_get_total_sum.setEnabled(false);
             view.btn_add_item.setEnabled(false);
             view.btn_remove_item.setEnabled(false);
-
+            is_closed = true;
             if (table_number == -1) {
                 internet_orders_manager.addOrder(current_order);
                 (new Timer()).schedule(new TimerTask() {
@@ -175,6 +177,10 @@ public class cOrderPanel {
             if (cApplication.manager_panel != null && cApplication.manager_panel.controller != null)
                 cApplication.manager_panel.controller.updateOrdersList();
         }
+    }
+
+    public boolean isClosed() {
+        return is_closed;
     }
 
     public void updateOrderList() {
