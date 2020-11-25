@@ -19,7 +19,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5172992a-488b-412e-b68d-173731d99e5c" name="Default Changelist" comment="lab_16 completed (BFG - Big F****** GUI)">
+    <list default="true" id="5172992a-488b-412e-b68d-173731d99e5c" name="Default Changelist" comment="pr_16 completed (Model for something more... useful)">
+      <change afterPath="$PROJECT_DIR$/src/pr_1/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pr_1/TestBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +61,12 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Pr_2" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\_MRX\II\3\ООП Java\Tasks\src\ru\mirea\pr_16" />
+      <recent name="C:\_MRX\II\3\ООП Java\Tasks\src" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.TestBook">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pr_12.Application" />
       <module name="Tasks" />
@@ -113,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAuthor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab_2.TestAuthor" />
+    <configuration name="TestBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pr_1.TestBook" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab_2.*" />
+          <option name="PATTERN" value="pr_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,19 +144,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestAuthor" />
       <item itemvalue="Application.Application" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.TestBook" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestBook" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +174,9 @@
       <workItem from="1603961176323" duration="1311000" />
       <workItem from="1603972657247" duration="113000" />
       <workItem from="1603976572605" duration="1950000" />
-      <workItem from="1604467814655" duration="1087000" />
+      <workItem from="1604467814655" duration="1391000" />
+      <workItem from="1606227547596" duration="15000" />
+      <workItem from="1606286332505" duration="1095000" />
     </task>
     <task id="LOCAL-00001" summary="Task pr 2 send to confirmation">
       <created>1599550306840</created>
@@ -198,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604468252549</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="pr_16 completed (Model for something more... useful)">
+      <created>1604469469940</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604469469940</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,13 +249,14 @@
     <MESSAGE value="repo trim" />
     <MESSAGE value="pr_14 completed (Shirts)" />
     <MESSAGE value="lab_16 completed (BFG - Big F****** GUI)" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab_16 completed (BFG - Big F****** GUI)" />
+    <MESSAGE value="pr_16 completed (Model for something more... useful)" />
+    <option name="LAST_COMMIT_MESSAGE" value="pr_16 completed (Model for something more... useful)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="478" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1599544095148">
+    <state x="478" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1606286875767">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state x="478" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1344.800@0.0.1344.800" timestamp="1599544095148" />
+    <state x="478" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1344.800@0.0.1344.800" timestamp="1606286875767" />
     <state x="329" y="151" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1604468069591">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
@@ -253,22 +269,22 @@
       <screen x="0" y="0" width="1344" height="800" />
     </state>
     <state x="294" y="0" key="FileChooserDialogImpl/0.0.1344.800@0.0.1344.800" timestamp="1603985833541" />
-    <state width="1267" height="386" key="GridCell.Tab.0.bottom" timestamp="1604467951226">
+    <state width="1267" height="386" key="GridCell.Tab.0.bottom" timestamp="1604469506744">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1267" height="386" key="GridCell.Tab.0.bottom/0.0.1344.800@0.0.1344.800" timestamp="1604467951226" />
-    <state width="1267" height="386" key="GridCell.Tab.0.center" timestamp="1604467951226">
+    <state width="1267" height="386" key="GridCell.Tab.0.bottom/0.0.1344.800@0.0.1344.800" timestamp="1604469506744" />
+    <state width="1267" height="386" key="GridCell.Tab.0.center" timestamp="1604469506743">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1267" height="386" key="GridCell.Tab.0.center/0.0.1344.800@0.0.1344.800" timestamp="1604467951226" />
-    <state width="1267" height="386" key="GridCell.Tab.0.left" timestamp="1604467951226">
+    <state width="1267" height="386" key="GridCell.Tab.0.center/0.0.1344.800@0.0.1344.800" timestamp="1604469506743" />
+    <state width="1267" height="386" key="GridCell.Tab.0.left" timestamp="1604469506743">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1267" height="386" key="GridCell.Tab.0.left/0.0.1344.800@0.0.1344.800" timestamp="1604467951226" />
-    <state width="1267" height="386" key="GridCell.Tab.0.right" timestamp="1604467951226">
+    <state width="1267" height="386" key="GridCell.Tab.0.left/0.0.1344.800@0.0.1344.800" timestamp="1604469506743" />
+    <state width="1267" height="386" key="GridCell.Tab.0.right" timestamp="1604469506744">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1267" height="386" key="GridCell.Tab.0.right/0.0.1344.800@0.0.1344.800" timestamp="1604467951226" />
+    <state width="1267" height="386" key="GridCell.Tab.0.right/0.0.1344.800@0.0.1344.800" timestamp="1604469506744" />
     <state x="373" y="0" key="RollbackChangesDialog" timestamp="1603217025969">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
@@ -277,10 +293,10 @@
       <screen x="0" y="0" width="1344" height="800" />
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1344.800@0.0.1344.800" timestamp="1603217088774" />
-    <state x="0" y="0" key="Vcs.Push.Dialog.v2" timestamp="1604468299078">
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2" timestamp="1604469474144">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state x="0" y="0" key="Vcs.Push.Dialog.v2/0.0.1344.800@0.0.1344.800" timestamp="1604468299078" />
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2/0.0.1344.800@0.0.1344.800" timestamp="1604469474144" />
     <state x="474" y="307" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1599549983173">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
