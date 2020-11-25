@@ -19,9 +19,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5172992a-488b-412e-b68d-173731d99e5c" name="Default Changelist" comment="pr_16 completed (Model for something more... useful)">
-      <change afterPath="$PROJECT_DIR$/src/pr_1/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pr_1/TestBook.java" afterDir="false" />
+    <list default="true" id="5172992a-488b-412e-b68d-173731d99e5c" name="Default Changelist" comment="pr_1 completed (one of lost works)">
+      <change afterPath="$PROJECT_DIR$/src/lab_1/PrintHarmonic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,20 +65,7 @@
       <recent name="C:\_MRX\II\3\ООП Java\Tasks\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestBook">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pr_12.Application" />
-      <module name="Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pr_12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PrintHarmonic">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pr_14.Main" />
       <module name="Tasks" />
@@ -119,6 +105,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrintHarmonic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab_1.PrintHarmonic" />
+      <module name="Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pr_1.TestBook" />
       <module name="Tasks" />
@@ -144,19 +143,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Application" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.TestBook" />
+      <item itemvalue="Application.PrintHarmonic" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintHarmonic" />
         <item itemvalue="Application.TestBook" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +175,7 @@
       <workItem from="1603976572605" duration="1950000" />
       <workItem from="1604467814655" duration="1391000" />
       <workItem from="1606227547596" duration="15000" />
-      <workItem from="1606286332505" duration="1095000" />
+      <workItem from="1606286332505" duration="1944000" />
     </task>
     <task id="LOCAL-00001" summary="Task pr 2 send to confirmation">
       <created>1599550306840</created>
@@ -213,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604469469940</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="pr_1 completed (one of lost works)">
+      <created>1606287587844</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606287587844</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +256,8 @@
     <MESSAGE value="pr_14 completed (Shirts)" />
     <MESSAGE value="lab_16 completed (BFG - Big F****** GUI)" />
     <MESSAGE value="pr_16 completed (Model for something more... useful)" />
-    <option name="LAST_COMMIT_MESSAGE" value="pr_16 completed (Model for something more... useful)" />
+    <MESSAGE value="pr_1 completed (one of lost works)" />
+    <option name="LAST_COMMIT_MESSAGE" value="pr_1 completed (one of lost works)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="478" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1606286875767">
@@ -269,22 +276,22 @@
       <screen x="0" y="0" width="1344" height="800" />
     </state>
     <state x="294" y="0" key="FileChooserDialogImpl/0.0.1344.800@0.0.1344.800" timestamp="1603985833541" />
-    <state width="1267" height="386" key="GridCell.Tab.0.bottom" timestamp="1604469506744">
+    <state width="1267" height="386" key="GridCell.Tab.0.bottom" timestamp="1606288074595">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1267" height="386" key="GridCell.Tab.0.bottom/0.0.1344.800@0.0.1344.800" timestamp="1604469506744" />
-    <state width="1267" height="386" key="GridCell.Tab.0.center" timestamp="1604469506743">
+    <state width="1267" height="386" key="GridCell.Tab.0.bottom/0.0.1344.800@0.0.1344.800" timestamp="1606288074595" />
+    <state width="1267" height="386" key="GridCell.Tab.0.center" timestamp="1606288074595">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1267" height="386" key="GridCell.Tab.0.center/0.0.1344.800@0.0.1344.800" timestamp="1604469506743" />
-    <state width="1267" height="386" key="GridCell.Tab.0.left" timestamp="1604469506743">
+    <state width="1267" height="386" key="GridCell.Tab.0.center/0.0.1344.800@0.0.1344.800" timestamp="1606288074595" />
+    <state width="1267" height="386" key="GridCell.Tab.0.left" timestamp="1606288074594">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1267" height="386" key="GridCell.Tab.0.left/0.0.1344.800@0.0.1344.800" timestamp="1604469506743" />
-    <state width="1267" height="386" key="GridCell.Tab.0.right" timestamp="1604469506744">
+    <state width="1267" height="386" key="GridCell.Tab.0.left/0.0.1344.800@0.0.1344.800" timestamp="1606288074594" />
+    <state width="1267" height="386" key="GridCell.Tab.0.right" timestamp="1606288074595">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1267" height="386" key="GridCell.Tab.0.right/0.0.1344.800@0.0.1344.800" timestamp="1604469506744" />
+    <state width="1267" height="386" key="GridCell.Tab.0.right/0.0.1344.800@0.0.1344.800" timestamp="1606288074595" />
     <state x="373" y="0" key="RollbackChangesDialog" timestamp="1603217025969">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
