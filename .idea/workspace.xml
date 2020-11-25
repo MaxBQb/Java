@@ -19,272 +19,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5172992a-488b-412e-b68d-173731d99e5c" name="Default Changelist" comment="lab_16 completed (BFG - Big F****** GUI)">
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_1/PrintHarmonic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_10/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_10/MyArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_11/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_11/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_12/DateChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_13/PasswordChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Controller/Validators/hasContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Controller/Validators/isNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Controller/cAddDish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Controller/cAddDrink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Controller/cAddressInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Controller/cApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Controller/cAuthorizationPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Controller/cDeliveryAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Controller/cManagerPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Controller/cOrderPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Controller/cOrderView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Controller/cTableReservationPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Model/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Model/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Model/Drink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Model/DrinkTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Model/Exceptions/IllegalTableNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Model/Exceptions/OrderAlreadyAddedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Model/Interfaces/Alcoholable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Model/Interfaces/IOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Model/Interfaces/OrdersManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Model/InternetOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Model/InternetOrdersManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Model/ItemsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Model/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Model/MenuItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Model/TableOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Model/TableOrdersManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/View/AddDish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/View/AddDrink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/View/AddressInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/View/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/View/AuthorizationPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/View/DeliveryAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/View/ManagerPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/View/OrderPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/View/OrderView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/View/TableReservationPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_2/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_2/BookTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_3/Cup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_3/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_3/Plate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_4/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_4/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_4/Nameable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_4/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_5/Appication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_7/MyArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_7/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_8/RewriteFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_9/Exception.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_9/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/lab_9/ThrowsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_1/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_1/TestBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_10/Complex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_10/ComplexAbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_10/ConcreteFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_10/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_11/AbstractChairFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_11/Chair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_11/ChairFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_11/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_11/FunctionalChair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_11/MagicChair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_11/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_11/VictorianChair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_12/CreateAbstractDocument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_12/CreateTextDocument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_12/ICreateDocuments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_12/IDocument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_12/ImageDocument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_12/MusicDocument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_12/TextDocument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_13/AbstractOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_13/Add.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_13/Const.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_13/Divide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_13/IComputable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_13/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_13/Multiply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_13/Subtract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_13/Variable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_14/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_14/Shirt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_16/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_16/Drink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_16/IItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_16/IOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_16/IllegalTableNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_16/InternetOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_16/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_16/OrderAlreadyAddedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_16/OrderManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_16/RestaurantOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_2/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_2/TestAuthor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_3/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_3/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_3/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_3/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_3/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_4/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_6/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_6/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_6/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_7/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_7/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_8/BoundedWaitList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_8/IWaitList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_8/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_8/UnfairWaitList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_8/WaitList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_9/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_9/DataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_9/DeserializationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_9/ISerializable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_9/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/pr_9/WrongFieldsCountException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_1/PrintHarmonic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_10/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_10/MyArrayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_11/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_11/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_12/DateChecker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_13/PasswordChecker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Controller/Validators/hasContent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Controller/Validators/isNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Controller/cAddDish.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Controller/cAddDrink.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Controller/cAddressInput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Controller/cApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Controller/cAuthorizationPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Controller/cDeliveryAddress.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Controller/cManagerPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Controller/cOrderPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Controller/cOrderView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Controller/cTableReservationPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Model/Address.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Model/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Model/Dish.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Model/Drink.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Model/DrinkTypeEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Model/Exceptions/IllegalTableNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Model/Exceptions/OrderAlreadyAddedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Model/Interfaces/Alcoholable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Model/Interfaces/IOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Model/Interfaces/OrdersManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Model/InternetOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Model/InternetOrdersManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Model/ItemsRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Model/List.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Model/MenuItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Model/TableOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/Model/TableOrdersManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/View/AddDish.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/View/AddDrink.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/View/AddressInput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/View/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/View/AuthorizationPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/View/DeliveryAddress.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/View/ManagerPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/View/OrderPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/View/OrderView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_16/View/TableReservationPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_2/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_2/BookTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_3/Cup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_3/Dish.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_3/Plate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_4/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_4/Human.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_4/Nameable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_4/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_5/Appication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_5/left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_5/right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_6/Appication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_7/MyArrayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_7/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_8/RewriteFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_9/Exception.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_9/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_9/ThrowsDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_1/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_1/TestBook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_10/Complex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_10/ComplexAbstractFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_10/ConcreteFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_10/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_11/AbstractChairFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_11/Chair.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_11/ChairFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_11/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_11/FunctionalChair.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_11/MagicChair.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_11/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_11/VictorianChair.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_12/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_12/CreateAbstractDocument.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_12/CreateTextDocument.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_12/ICreateDocuments.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_12/IDocument.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_12/ImageDocument.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_12/MusicDocument.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_12/TextDocument.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_13/AbstractOperator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_13/Add.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_13/Const.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_13/Divide.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_13/IComputable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_13/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_13/Multiply.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_13/Subtract.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_13/Variable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_14/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_14/Shirt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_16/Dish.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_16/Drink.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_16/IItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_16/IOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_16/IllegalTableNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_16/InternetOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_16/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_16/OrderAlreadyAddedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_16/OrderManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_16/RestaurantOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_2/Author.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_2/TestAuthor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_3/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_3/Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_3/Shape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_3/Square.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_3/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_4/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_5/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_6/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_6/MergeSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_6/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_7/Game.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_7/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_8/BoundedWaitList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_8/IWaitList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_8/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_8/UnfairWaitList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_8/WaitList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_9/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_9/DataBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_9/DeserializationException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_9/ISerializable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_9/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr_9/WrongFieldsCountException.java" beforeDir="false" />
-    </list>
+    <list default="true" id="5172992a-488b-412e-b68d-173731d99e5c" name="Default Changelist" comment="labs&amp;pr`s moved to ru.mirea package" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -474,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604468252549</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="labs&amp;pr`s moved to ru.mirea package">
+      <created>1606289468763</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606289468763</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -510,7 +252,8 @@
     <MESSAGE value="repo trim" />
     <MESSAGE value="pr_14 completed (Shirts)" />
     <MESSAGE value="lab_16 completed (BFG - Big F****** GUI)" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab_16 completed (BFG - Big F****** GUI)" />
+    <MESSAGE value="labs&amp;pr`s moved to ru.mirea package" />
+    <option name="LAST_COMMIT_MESSAGE" value="labs&amp;pr`s moved to ru.mirea package" />
   </component>
   <component name="WindowStateProjectService">
     <state x="478" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1599544095148">
@@ -553,10 +296,10 @@
       <screen x="0" y="0" width="1344" height="800" />
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1344.800@0.0.1344.800" timestamp="1603217088774" />
-    <state x="0" y="0" key="Vcs.Push.Dialog.v2" timestamp="1606289190283">
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2" timestamp="1606289594946">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state x="0" y="0" key="Vcs.Push.Dialog.v2/0.0.1344.800@0.0.1344.800" timestamp="1606289190283" />
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2/0.0.1344.800@0.0.1344.800" timestamp="1606289594946" />
     <state x="474" y="307" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1599549983173">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
