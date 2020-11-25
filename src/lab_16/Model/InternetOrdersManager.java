@@ -37,6 +37,8 @@ public class InternetOrdersManager implements OrdersManager {
         size--;
         IOrder value = head.value;
         head = head.next;
+        if (size == 0)
+            tail = null;
         return value;
     }
 
