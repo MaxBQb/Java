@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         System.out.println("\t[Завершение ввода Ctrl-D]");
-        System.out.println("Введите строки Shirt[]:ru.mirea.pr_14");
+        System.out.println("Введите строки Shirt:");
         Scanner scanner = new Scanner(System.in);
         String[] dtmp;
         ArrayList<Shirt> arrayList = new ArrayList<>();
