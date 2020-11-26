@@ -31,6 +31,7 @@ class Application extends JFrame {
 
     Application() {
         super("Милан и Мадрид, ну и кто победит?");
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         btn_ac.setFont(fnt);
         btn_rm.setFont(fnt);
         lbl_result.setFont(fnt);

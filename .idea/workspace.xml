@@ -19,12 +19,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5172992a-488b-412e-b68d-173731d99e5c" name="Default Changelist" comment="quick fix for image path (now i hate dots in package names)">
+    <list default="true" id="5172992a-488b-412e-b68d-173731d99e5c" name="Default Changelist" comment="lab_16 fixed bug: editing already closed order">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mirea/lab_16/Controller/cAddDish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Controller/cAddDish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mirea/lab_16/Controller/cAddDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Controller/cAddDrink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mirea/lab_16/Controller/cOrderPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mirea/lab_16/Controller/cOrderPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mirea/lab_9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mirea/lab_9/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mirea/pr_4/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mirea/pr_4/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,13 +68,13 @@
       <recent name="C:\_MRX\II\3\ООП Java\Tasks\out\tests\pr" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
-    <configuration name="DateChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.lab_12.DateChecker" />
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.pr_4.Application" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mirea.lab_12.*" />
+          <option name="PATTERN" value="ru.mirea.pr_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,11 +83,11 @@
       </method>
     </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.lab_10.Main" />
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.pr_6.Main" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mirea.lab_10.*" />
+          <option name="PATTERN" value="ru.mirea.pr_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,24 +96,11 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.lab_11.Main" />
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.pr_7.Main" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mirea.lab_11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.lab_16.Main" />
-      <module name="Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.mirea.lab_16.*" />
+          <option name="PATTERN" value="ru.mirea.pr_7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +109,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.pr_16.Main" />
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.pr_5.Main" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mirea.pr_16.*" />
+          <option name="PATTERN" value="ru.mirea.pr_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.lab_13.PasswordChecker" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.pr_3.Test" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mirea.lab_13.*" />
+          <option name="PATTERN" value="ru.mirea.pr_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,31 +134,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Application" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.DateChecker" />
-      <item itemvalue="Application.PasswordChecker" />
-      <item itemvalue="Application.Main (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.PasswordChecker" />
-        <item itemvalue="Application.DateChecker" />
+        <item itemvalue="Application.Application" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +180,8 @@
       <workItem from="1603976572605" duration="1950000" />
       <workItem from="1604467814655" duration="1087000" />
       <workItem from="1606324198227" duration="147000" />
-      <workItem from="1606324473428" duration="6109000" />
+      <workItem from="1606324473428" duration="7459000" />
+      <workItem from="1606370448687" duration="2456000" />
     </task>
     <task id="LOCAL-00001" summary="Task pr 2 send to confirmation">
       <created>1599550306840</created>
@@ -245,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606325842848</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="lab_16 fixed bug: editing already closed order">
+      <created>1606333435233</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606333435233</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +278,8 @@
     <MESSAGE value="labs&amp;pr`s moved to ru.mirea package" />
     <MESSAGE value="quick fix" />
     <MESSAGE value="quick fix for image path (now i hate dots in package names)" />
-    <option name="LAST_COMMIT_MESSAGE" value="quick fix for image path (now i hate dots in package names)" />
+    <MESSAGE value="lab_16 fixed bug: editing already closed order" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab_16 fixed bug: editing already closed order" />
   </component>
   <component name="WindowStateProjectService">
     <state x="478" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1606333063384">
@@ -299,42 +294,46 @@
       <screen x="0" y="0" width="1344" height="800" />
     </state>
     <state x="329" y="151" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1344.800@0.0.1344.800" timestamp="1604468069591" />
-    <state x="93" y="93" width="1158" height="614" key="DiffContextDialog" timestamp="1604468313735">
+    <state x="93" y="93" width="1158" height="614" key="DiffContextDialog" timestamp="1606333811830">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state x="93" y="93" width="1158" height="614" key="DiffContextDialog/0.0.1344.800@0.0.1344.800" timestamp="1604468313735" />
+    <state x="93" y="93" width="1158" height="614" key="DiffContextDialog/0.0.1344.800@0.0.1344.800" timestamp="1606333811830" />
     <state x="294" y="0" key="FileChooserDialogImpl" timestamp="1603985833541">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
     <state x="294" y="0" key="FileChooserDialogImpl/0.0.1344.800@0.0.1344.800" timestamp="1603985833541" />
-    <state width="1267" height="523" key="GridCell.Tab.0.bottom" timestamp="1606332758735">
+    <state width="1267" height="523" key="GridCell.Tab.0.bottom" timestamp="1606373320642">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1267" height="523" key="GridCell.Tab.0.bottom/0.0.1344.800@0.0.1344.800" timestamp="1606332758735" />
-    <state width="1267" height="523" key="GridCell.Tab.0.center" timestamp="1606332758734">
+    <state width="1267" height="523" key="GridCell.Tab.0.bottom/0.0.1344.800@0.0.1344.800" timestamp="1606373320642" />
+    <state width="1267" height="523" key="GridCell.Tab.0.center" timestamp="1606373320640">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1267" height="523" key="GridCell.Tab.0.center/0.0.1344.800@0.0.1344.800" timestamp="1606332758734" />
-    <state width="1267" height="523" key="GridCell.Tab.0.left" timestamp="1606332758734">
+    <state width="1267" height="523" key="GridCell.Tab.0.center/0.0.1344.800@0.0.1344.800" timestamp="1606373320640" />
+    <state width="1267" height="523" key="GridCell.Tab.0.left" timestamp="1606373320639">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1267" height="523" key="GridCell.Tab.0.left/0.0.1344.800@0.0.1344.800" timestamp="1606332758734" />
-    <state width="1267" height="523" key="GridCell.Tab.0.right" timestamp="1606332758735">
+    <state width="1267" height="523" key="GridCell.Tab.0.left/0.0.1344.800@0.0.1344.800" timestamp="1606373320639" />
+    <state width="1267" height="523" key="GridCell.Tab.0.right" timestamp="1606373320641">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1267" height="523" key="GridCell.Tab.0.right/0.0.1344.800@0.0.1344.800" timestamp="1606332758735" />
-    <state x="373" y="0" key="RollbackChangesDialog" timestamp="1603217025969">
+    <state width="1267" height="523" key="GridCell.Tab.0.right/0.0.1344.800@0.0.1344.800" timestamp="1606373320641" />
+    <state x="373" y="0" key="RollbackChangesDialog" timestamp="1606333368325">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state x="373" y="0" key="RollbackChangesDialog/0.0.1344.800@0.0.1344.800" timestamp="1603217025969" />
+    <state x="373" y="0" key="RollbackChangesDialog/0.0.1344.800@0.0.1344.800" timestamp="1606333368325" />
     <state x="0" y="0" key="SettingsEditor" timestamp="1603217088774">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1344.800@0.0.1344.800" timestamp="1603217088774" />
-    <state x="0" y="0" key="Vcs.Push.Dialog.v2" timestamp="1606325847314">
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2" timestamp="1606333443846">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state x="0" y="0" key="Vcs.Push.Dialog.v2/0.0.1344.800@0.0.1344.800" timestamp="1606325847314" />
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2/0.0.1344.800@0.0.1344.800" timestamp="1606333443846" />
+    <state x="0" y="0" width="965" height="800" key="find.popup" timestamp="1606334617184">
+      <screen x="0" y="0" width="1344" height="800" />
+    </state>
+    <state x="0" y="0" width="965" height="800" key="find.popup/0.0.1344.800@0.0.1344.800" timestamp="1606334617184" />
     <state x="474" y="307" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1599549983173">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
