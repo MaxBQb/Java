@@ -22,7 +22,7 @@ public class Application extends JFrame {
     JLabel lblList = new JLabel("Список студентов: ", SwingConstants.CENTER);
 
     JButton btnAdd = new JButton("Добавить");
-    JButton btnFind = new JButton("Поиск по Фамилии");
+    JButton btnFind = new JButton("Поиск");
     JButton btnDelete = new JButton("Удалить найденные");
     JButton btnSort = new JButton("Сортировка списка");
 
