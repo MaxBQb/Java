@@ -32,7 +32,7 @@ public class cAuthorizationPanel {
                 get_address_panel.controller == null ||
                 get_address_panel.controller.getAddress() == null)) {
                 JOptionPane.showMessageDialog(null,
-                        "Акажите адрес доставки!",
+                        "Укажите адрес доставки!",
                         "Ошибка!",
                         JOptionPane.WARNING_MESSAGE
                 );
